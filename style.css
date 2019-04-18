@@ -1,0 +1,22 @@
+.slide {
+	height: 620px;
+	background-color: blue;
+}
+
+.right-lesson {
+	height: 310px;
+	background-color: red;
+}
+
+.right-event {
+	height: 310px;
+	background-color: green;
+}
+
+.ad {
+	background-color: gray;
+}
+
+.date{
+	background-color: yellow;
+}
