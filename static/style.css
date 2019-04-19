@@ -1,0 +1,35 @@
+.slide {
+	height: 636px;
+}
+
+.right-lesson {
+	height: 320px;
+}
+
+.card {
+	height: 300px;
+	
+	border-radius: 0px;
+}
+
+.right-event {
+	height: 300px;
+	margin-bottom: 0px;
+}
+
+.ad {
+	background: #EEE;
+}
+
+.date{
+	background: #EEE;
+}
+
+.col-md-9{
+	padding-left: 0px;
+}
+
+#clock{
+	text-align: center;
+	font-size: 16px;
+}

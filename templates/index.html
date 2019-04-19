@@ -1,9 +1,12 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>E-Board</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+
 </head>
 <body>
 
@@ -49,25 +52,40 @@
 		<div class="right col-md-3 col-sm-6">
 			<div class="row">
 				<div class="right-lesson col-md-12 col-sm-12">
-					lesson
+					<div class="card" style="overflow-y:auto;">
+						<div class="card-body">
+							<p class="card-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget dui quis arcu condimentum porttitor. Maecenas tristique libero enim, quis hendrerit nunc luctus ac. Curabitur sagittis mauris bibendum urna egestas molestie. 
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="right-event col-md-12 col-sm-12">
-					event
+				<div class="right-event col-md-12 col-sm-12"">
+					<div class="card">
+						<div class="card-body">
+							Events
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="row">
 		<div class="ad col-md-9 col-sm-6">
-			ad
+				<marquee>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget dui quis arcu condimentum porttitor. Maecenas tristique libero enim, quis hendrerit nunc luctus ac. Curabitur sagittis mauris bibendum urna egestas molestie. 
+				</marquee> 
 		</div>
 		<div class="date col-md-3 col-sm-6">
-			date
+				<div id="clock"></div>
 		</div>
 	</div>
 </div>
+
+<script src="{% static 'clock.js' %}"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
