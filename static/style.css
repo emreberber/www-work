@@ -1,5 +1,9 @@
-.slide {
-	height: 636px;
+body{
+	height: 100%;
+}
+
+.slides {
+	height: 10%;
 }
 
 .right-lesson {
@@ -8,8 +12,16 @@
 
 .card {
 	height: 300px;
-	
 	border-radius: 0px;
+}
+
+.card-body{
+	padding: 0px;
+}
+
+.card-text{
+	margin: 0px;
+	padding: 0px;
 }
 
 .right-event {
@@ -18,11 +30,12 @@
 }
 
 .ad {
-	background: #EEE;
+	background: #fafafa;
 }
 
 .date{
-	background: #EEE;
+	background: #fafafa;
+	color: #252a34;
 }
 
 .col-md-9{
