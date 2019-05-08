@@ -13,8 +13,8 @@ class Slide(models.Model):
 
 class Event(models.Model):
     title  = models.CharField(max_length=480)
-    date   = models.CharField(max_length=480)
-    place  = models.CharField(max_length=480)
+    date   = models.CharField(max_length=480, null=True, blank=True)
+    place  = models.CharField(max_length=480, null=True, blank=True)
     detail = models.TextField()
 
     def __str__(self):

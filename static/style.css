@@ -1,13 +1,20 @@
-body{
+html {
+	overflow-y: hidden;
+}
+
+marquee {
 	height: 100%;
 }
 
-.slides {
-	height: 10%;
+.right-lesson {
+	height: 300px;
 }
 
-.right-lesson {
-	height: 320px;
+.head {
+	text-align: center;
+	background: #1B539F;
+	color: #f6f7d7;
+	letter-spacing: 5px;
 }
 
 .card {
@@ -17,6 +24,7 @@ body{
 
 .card-body{
 	padding: 0px;
+	overflow-y: hidden;
 }
 
 .card-text{
