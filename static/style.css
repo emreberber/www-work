@@ -1,4 +1,4 @@
-html {
+html{
 	overflow-y: hidden;
 }
 
@@ -7,7 +7,7 @@ marquee {
 }
 
 .right-lesson {
-	height: 310px;
+	height: 300px;
 }
 
 .head {
@@ -18,7 +18,7 @@ marquee {
 }
 
 .card {
-	height: 310px;
+	height: 300px;
 	border-radius: 0px;
 }
 
